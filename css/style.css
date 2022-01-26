@@ -217,10 +217,11 @@ footer{
     header .logo a img{
         height: 40px; 
     }
-    header nav{ width: 50%;}
+    header nav{ width: 75%; display: flex; justify-content: space-between;}
     header nav ul{
         display: flex; justify-content: space-around; 
-        align-items: center;}
+        align-items: center; width: 66.666%;
+    }
     header nav ul li{
         text-align: center; height: 100%;
         border-bottom: none;
@@ -246,14 +247,14 @@ footer{
         opacity: 1; width: 100%; transition: 0.5s;
     }
     header .sns{
-        position:static; width: 25%; height: 100%;
+        position:static; height: 100%; width: 33.333%;
         bottom: 0; left: 0; transform: translateX(0);
         display: flex; align-items: center; justify-content: end;
     }
     header .sns h3{
         display: none; 
     }
-    header .sns .sns_info{}
+    header .sns .sns_info{ justify-content: end;}
     header .sns .sns_info li{
         width: 18px; height: 18px; box-shadow: 0 0 1px rgba(35, 31, 32, 0.8);
     }
