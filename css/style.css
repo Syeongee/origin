@@ -223,14 +223,14 @@ footer{
         align-items: center; width: 66.666%;
     }
     header nav ul li{
-        text-align: center; height: 100%;
+        text-align: center; height: 100%; 
         border-bottom: none;
     }
     header nav ul li:first-child{
         border-top: none;
     }
     header nav ul li a{
-        font-size: 0.938rem; color: white; display: block; line-height: 60px; position: relative;
+        font-size: 0.938rem; color: white; display: block;  line-height: 60px; position: relative; 
     }
     header nav ul li:hover{
         background-color: transparent;
@@ -293,8 +293,8 @@ footer{
     header .logo{
         width: 33.333%;
     }
-    header nav{width: 64.0625%;}
-    header nav ul{
+    header nav{width: 66.666%;}
+    header nav ul{ width: 100%;
         justify-content: end;
     }
     header nav ul li{margin-right: 38px;}
@@ -416,6 +416,7 @@ footer{
         display: block; margin: 0 auto; width: auto;
         padding: 21px 0;
     }
+    header .sns .sns_info{ justify-content: center;}
     header .arrow{
         display: block; position: absolute;
         bottom: 3.125%; left: 50%; transform: translateX(-50%);
